@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/milada_vigerova_udqtxwrdazy_unsplash"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/image_to_text"
+        android:cropToPadding="false"
+        android:filterTouchesWhenObscured="false"
+        android:scaleType="centerCrop"
+        android:text="Button2"
+        tools:srcCompat="#00BB86FC" />
+
+    <ImageButton
+        android:id="@+id/button8"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/allenton_hippo_qr_code"
+        android:text="Button"
+        tools:srcCompat="#20DDC3C3" />
+
+
+</LinearLayout>
